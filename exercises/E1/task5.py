@@ -15,6 +15,13 @@ class PermutationFinder:
     def get(self) -> tuple:
         return self.list
 
+def count_cycles(list: list[int]):
+    cycles = 0
+    for i in range(len(list)):
+        if list[i] != i+1:
+            cycles += 1
+    return cycles
+
 
 if __name__ == "__main__":
     maxVal: int = int(input("Please enter max value"))
@@ -22,3 +29,4 @@ if __name__ == "__main__":
     pf.makeList()
     pf.randomize()
     print(pf.get())
+    print(count_cycles(pf.get()))
