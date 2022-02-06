@@ -12,7 +12,7 @@ class PermutationFinder:
     def randomize(self) -> None:
         shuffle(self.list)
 
-    def get(self) -> tuple:
+    def get(self) -> list:
         return self.list
 
 def count_cycles(list: list[int]):
