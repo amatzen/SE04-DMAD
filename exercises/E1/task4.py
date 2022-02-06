@@ -1,12 +1,24 @@
-import itertools
-import random
+from random import shuffle
 
-maxValue = input("Please enter highest value: ")
+class PermutationFinder:
+    def __init__(self, max: int) -> None:
+        super().__init__()
+        self.list = None
+        self.max = max
 
-listA = list(range(1, int(maxValue)+1))
-permA = itertools.permutations(listA)
-permA = list(permA)
+    def makeList(self) -> None:
+        self.list = list(range(1, int(self.max)+1))
 
-rand_index = random.randrange(0, (len(permA)-1))
+    def randomize(self) -> None:
+        shuffle(self.list)
 
-print(permA[rand_index])
+    def get(self) -> list:
+        return self.list
+
+
+if __name__ == "__main__":
+    maxVal: int = int(input("Please enter max value"))
+    pf = PermutationFinder(maxVal)
+    pf.makeList()
+    pf.randomize()
+    print(pf.get())
