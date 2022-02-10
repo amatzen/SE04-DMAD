@@ -117,3 +117,18 @@ $$f(n) = 0.1\cdot n^2+5\cdot n+25$$
 $$\lim_{n\rightarrow \infty}{\frac{0.1\cdot n^2+5\cdot n+25}{n^2}} = \lim_{n\rightarrow \infty}{0.1+\frac{5}{n}+\frac{25}{n^2}=0.1}$$
 
 Dermed $$f(n)=\Theta(n^2)$$
+
+## Opgave 8
+$$\lim_{n\rightarrow\infty}{\frac{1}{log_{2}(n)}=0}\newline
+log_{2}(n)=o(1)$$
+
+$$\lim_{n\rightarrow\infty}{\frac{log_{2}(n)}{\sqrt{n}}=0}\newline
+\sqrt{n}=o(log_{2}(1))$$
+
+$$\lim_{n\rightarrow\infty}{\frac{\sqrt{n}}{n}=0}\newline
+n=o(\sqrt{n})$$
+
+$$\lim_{n\rightarrow\infty}{\frac{n}{n\cdot\log{n}}=0}\newline
+n=o(n)$$
+
+$$...$$
