@@ -75,7 +75,23 @@ $$\{8, 6\} \rightarrow \{2,3\}$$
 $$\{3, 1\} \rightarrow \{1,4\}$$
 
 $$\{2, 1\} \rightarrow \{0,4\}$$
+
 ### 4b
 
 
-## Opgave 
+$$A = \langle n, ..., 2, 1 \rangle$$
+
+$$n - 1$$
+
+$$n - 2$$
+
+$$...$$
+
+$$n - n$$
+
+$$\sum^{n}_{j=1}{n-j}=\frac{n^2-n}{2}$$
+
+### 4c
+
+
+## Opgave 5
