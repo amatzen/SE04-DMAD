@@ -89,7 +89,7 @@ $$...$$
 
 $$n - n$$
 
-$$\sum^{n}_{j=1}{n-j}=\frac{n^2-n}{2}$$
+$$\sum^{n}\_{j=1}{n-j}=\frac{n^2-n}{2}$$
 
 ### 4c
 
@@ -108,4 +108,12 @@ $$\{37,58\}, \{9,49\} \rightarrow \{9,37,49,58\}$$
 
 $$\{3,26,41,52\}, \{9,37,49,58\} \rightarrow {\bf\{3,9,26,37,41,49,52,58\}}$$
 
+## Opgave 6
+???
 
+## Opgave 7
+$$f(n) = 0.1\cdot n^2+5\cdot n+25$$
+
+$$\lim_{n\rightarrow \infty}{\frac{0.1\cdot n^2+5\cdot n+25}{n^2}} = \lim_{n\rightarrow \infty}{0.1+\frac{5}{n}+\frac{25}{n^2}=0.1}$$
+
+Dermed $$f(n)=\Theta(n^2)$$
