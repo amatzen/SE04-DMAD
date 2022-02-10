@@ -58,3 +58,24 @@ public class Task3 {
     }
 }
 ```
+
+## Opgave 4
+### 4a
+
+$$A=\langle 2,3,8,6,1 \rangle$$
+
+$$\{A[i], A[j]\} \rightarrow \{i,j\}$$
+
+$$\{6, 1\} \rightarrow \{3,4\}$$
+
+$$\{8, 1\} \rightarrow \{2,4\}$$
+
+$$\{8, 6\} \rightarrow \{2,3\}$$
+
+$$\{3, 1\} \rightarrow \{1,4\}$$
+
+$$\{2, 1\} \rightarrow \{0,4\}$$
+### 4b
+
+
+## Opgave 
