@@ -4,8 +4,12 @@ import java.util.List;
 
 public class Task3 {
     public static void main(String[] args) {
-        List<Integer> l = randomPermutation(7);
-        System.out.println(insertionSort(l));
+        int length = (int) Math.floor(Math.random()*40+1);
+
+        System.out.println("Length: " + length);
+        List<Integer> l = randomPermutation(length);
+        System.out.println("Permutation: " + l);
+        System.out.println("Sorted: " + insertionSort(l));
     }
 
     public static List<Integer> insertionSort(List<Integer> unordered) {
@@ -21,7 +25,7 @@ public class Task3 {
             unordered.set(i+1, k);
         }
 
-        return null;
+        return unordered;
     }
 
     public static List<Integer> randomPermutation(int length) {
