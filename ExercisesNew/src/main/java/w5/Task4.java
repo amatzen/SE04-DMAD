@@ -24,7 +24,7 @@ class PermutationFinder {
     }
 
     public void randomize() {
-        Collections.sort(list);
+        Collections.shuffle(list);
     }
 
     public List<Integer> get() {
