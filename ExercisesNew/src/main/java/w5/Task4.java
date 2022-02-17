@@ -14,20 +14,3 @@ public class Task4 {
     }
 }
 
-class PermutationFinder {
-    private List<Integer> list = new ArrayList<Integer>();
-
-    public PermutationFinder(int size) {
-        for (int i = 0; i < size; i++) {
-            list.add(i);
-        }
-    }
-
-    public void randomize() {
-        Collections.shuffle(list);
-    }
-
-    public List<Integer> get() {
-        return list;
-    }
-}
