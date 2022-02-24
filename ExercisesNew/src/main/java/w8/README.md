@@ -63,3 +63,5 @@ Den er ikke max-heap, da 6-tallet har en child med højere værdi.
 
 ## Opgave 9
 
+## Opgave 13
+I et blad.
